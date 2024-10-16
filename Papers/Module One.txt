@@ -1,0 +1,41 @@
+
+<!--
+The application I have chosen is the Inventory app. The overarching purpose of the app is to have an easy-to-use method of storing and sorting an inventory. The major components needed are:
+- Two databases
+- A login screen
+- A create user screen
+- A main inventory screen
+- Relevant buttons for each screen
+
+Each screen should have the necessary grids and checks to ensure that the information being entered is valid.
+
+Similar Apps
+Two similar apps to the inventory app are:
+1. Amazon App Checkout: Similar in that the different options in the Amazon online store are stored in a database. When you press the add to cart button, it is akin to adding something to the inventory.
+2. Task List App: Used to track different reminders you add to it. This app is similar because you add something to a local database and can add/remove items. When the set time comes, it's like the inventory app notifying you when an item reaches zero.
+
+Potential Users
+1. Restaurant Manager: Needs to know when some product is close to running out to order more. An app that tracks this would be extremely useful.
+2. Auto Parts Store: Wants to be able to tell a customer if something is in stock without searching the entire inventory. The app provides a record of what’s in stock.
+3. Online Store Owner: Desires an easy way to update what's in stock for their storefront without manually adding items. The app updates each item’s status, saving the owner a lot of time.
+
+Login/Create Screen
+- Create Account Screen:
+  - Includes different text boxes for inputs such as name, email, phone number, address, date of birth, password, and username.
+  - A create account button checks that all inputs match the criteria.
+  - Guidelines for secure password creation should be provided.
+
+- Login Screen:
+  - Includes fields for username and password.
+  - Buttons for login, forgot username, forgot password, help, and create account.
+  - Uses Amazon account data for easier account creation if the user already has an Amazon account.
+
+Main Screen
+- Data Source: Draws data from the current logged-in account and profile.
+- Sections:
+  1. What's Popular Now: Data comes from overall user activity, showing what's being watched and how many people have watched it recently.
+  2. Continue Watching: Data from the specific profile’s last watched items.
+  3. Featured Now: Recent or new items on the streaming service.
+  4. Recommended: Based on user’s watched content or similar user activity, recommending items with similar tags.
+  5. Different Genres: Uses relevant tags for genres (e.g., comedy, horror, family). Genres are ordered by the user’s most frequently watched tags.
+-->

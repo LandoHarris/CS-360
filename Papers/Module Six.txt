@@ -1,0 +1,22 @@
+<!--
+The Sensor Manager app that I made reads the data from the Accelerometer to string values on the main page.
+This didn’t take me that long this time as I had a few other apps where I was able to compare the experiences
+I had when setting them up before. Though this was the first time that I used the extended controls when testing.
+I’m not sure why it never occurred to me that there would be something like this for testing the different sensors
+in devices. It does make sense though because if you can emulate the whole phone why leave out the sensors.
+Then if you emulate the sensors, you will want a more efficient way to test the app’s functionality without
+having to manually connect a physical emulator to test conditions for each of the sensors.
+
+When deciding which sensor to test I thought about them and their usages while deciding, I ended up deciding
+on the accelerometer because it’s useful when determining things for something like the progressive driving
+tracker that can track things like hard braking and other similar values. I’ve always wondered how they did
+that, and I guess now I know. Some other usages for it might be in tandem with the GPS sensors or trackers to
+calculate things for Google Maps. The map might use it to more accurately track things to determine where you
+are and your speed. This might be used relative to the comparison of your initial speed and the rate you
+reach a different GPS position. All this combined could help narrow down and make the maps app more accurate.
+
+In conclusion, many apps could use the accelerometer sensor to help with specific functions that
+could either help make the initial purpose of their app more accurate or to rely solely on the
+accelerometer. Either of these cases would benefit from the Sensor Manager to help improve their
+applications.
+-->

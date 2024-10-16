@@ -1,0 +1,56 @@
+<!--
+I bring you Best Inventory Guy, BIG for short. I thought this was great because this best inventory
+guy is small. At least small enough to fit in your phone. This will be the introduction to the app
+as it gives a face to the app. Most people who use Android might be familiar with this robot guy;
+by making him the face of the app it becomes something that those people would already be familiar
+with. This might make it easier for them to accept it over other apps that might have an icon
+they were unfamiliar with.
+
+The other things that will be included in the description would be the things the app does or the
+features. The Best Inventory Guy app is a great way to store and sort your inventory for whatever
+project you may have. Just like the BIG, it works for you. On every page, we can see BIG trying to help
+you through your day. For example, he's on the login screen to assist when you don’t know your password.
+Once logged in he's there watching over your inventory, so it doesn’t get lost. And on the settings screen,
+he’s there to make sure your settings don’t change without your permission.
+PS you didn’t tell him your password, so how would he know.
+
+When developing the app I opted to use Android 8 as that covered the requirements of the app and though
+there could be some potential security risks involved due to the older version, the scope of the app doesn’t
+have any direct privacy concerns to me, should no personal information be entered into it. This is also as the
+permissions that it’s given in your device itself being SMS. If no other permissions are being requested or used
+by the app, it could lower the potential risks of using the older version because the app doesn’t have access
+to your phone either.
+
+That being said, the only permissions that the app asks for are to send and receive SMS. Even receive
+might not be totally necessary for the scope of the app though. These are the only permissions that
+the app asks for and the only ones that it uses. They aren’t even needed in the current version of
+the app, as I haven’t figured out notification channels for it. Due to this, I instead used Toast
+dialog boxes that will serve to notify the user if an item reaches zero. There is also a visual
+indication that the item has reached zero, being that the amount number turns red. The item with the
+least amount also goes to the top of the list to make it more noticeable.
+
+One way for making money from the app would be to have ads. I like the idea of having ads that
+the user can choose to watch. I’ve always hated when I’m trying to use an app that while it was
+free, if I have to watch an ad every five minutes, I’m just not going to use the app. This is why
+I think it would be a good idea to make ads optional. Give the users an option to either watch an
+ad or give a donation to BIG if they think the app is worth their money. This way the app is free
+for everyone and if they use it and like it they can support its further development.
+
+I could also include some things like accessories for BIG that the user can buy for him that would
+have no impact on the performance but a nice touch to make the app more personal. This was an easier
+decision than if the app had cost me anything other than time, as there were no high costs to make
+the initial app, I didn’t need to worry too much about how much it made. If the goal was to make money,
+then you could make some simple apps that follow the same logic as this one and maybe have BIG be
+working different jobs. Maybe if the accounts were stored on a different server or database, we
+could remember who made what purchases and they could carry over.
+
+Either way, this decision would be good. If we did carry over purchases it would be better for
+winning over the user as it gives them an incentive to continue using our apps in the future as
+they are invested before even downloading. It also shows the user that we value their money as
+much as they do. This is why I think having them carry over would be better than having them re-purchase
+things they already have in a different app. As I’ve played games and used different apps,
+I’ve always hated this. That's why I don’t plan on making the user buy the same thing multiple
+times for no real reason. All this also goes towards creating an environment for our apps that
+the user can become familiar with. The good and bad of this is that for this to work we need to
+have similar quality and style through all the apps we make in the future.
+-->

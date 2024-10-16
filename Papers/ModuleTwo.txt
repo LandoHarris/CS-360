@@ -1,0 +1,30 @@
+
+<!--
+The mobile app that I chose is Prime Video app. It’s a video streaming app and although there are many other streaming service apps I chose this one because I’m slightly more familiar with it. The Prime Video app is an app that allows the user to access many different brands that offer a variety of different shows or movies. The purpose could also be to have an organized way to access all the different streaming services it offers other than its own.
+
+The first screen you should see is the login screen which is through Amazon and not its own separate service entirely, making the process of creating an account slightly easier because it already has most of the basic information that it needs. Then after the login screen/create account screen, we get to the main page which has a row of shows and movies that are popular with other people right now. Under that, we have a continue watching section. Later down the page, we see the continue watching section, Featured now section, the recommended section, and finally the different genres after that. Now I will discuss the different components and possible data sources of the elements or sections that I have identified so far.
+
+### Login/Create Screen
+The create account screen should include different text boxes that define the associated inputs for that text. For example, First Name: Landon, and the other fields that might include things like name, email, phone number, address, and date of birth, as well as a chosen password and username. Then the user should have a create account button which would then check that all the given inputs match the criteria of what they are expected to be, and in this case, there should also be some guidelines on how the password should be made to make it more secure.
+
+The login screen will be much simpler as it only needs a few similar inputs and defining text boxes for those inputs. The login screen should have a username and password field. Then it should have five more buttons that include the following: Login, forgot username, forgot password, help, and create account. These buttons should do their obvious actions. A lot of the data needed for these things can be found if the user has already created an Amazon account as Amazon would then already have most of the data and it could just be transferred over to make things easier.
+
+### Main Screen
+The data that the main screen should take from is mainly from what account is logged in currently and then what profile that account is in. Then from that, they can take the data of what that specific profile has been watching and fill out the rest of the information.
+
+#### What's popular now
+The data for this should come from the data of the overall users. For example, what's being watched now and how many people have watched it in a period of time.
+
+#### Continue watching
+The data from this should just come from what the specific profile has watched last.
+
+#### Featured now
+The data for this should be things that recently came out and/or are new to the streaming service.
+
+#### Recommended
+The data on this can come from different sources such as things the user has watched before and will find things with similar tags to recommend them, or the data from other users that watch similar things and the other things they watched that you haven’t seen yet.
+
+#### Different genres
+The only data this needs is the relevant tags that something has, for example, tags like comedy, horror, family. Though the order the genres appear in could be from the tags the user watches more often coming first.
+-->
+

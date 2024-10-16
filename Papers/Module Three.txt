@@ -1,0 +1,35 @@
+The application I have chosen is the Inventory app. Its major components include a database with at least a couple of tables to hold the information that the application will need, such as the login information and the actual inventory the app will be displaying and managing.
+
+### Architecture
+The app would benefit from following something like the MEAN architecture where:
+- **MongoDB**: The main database to store and manage data in both tables.
+- **Express**: For displaying the information.
+- **Angular**: Processes actions taken with different buttons and sends requests to the DB.
+- **NodeJS**: Allows the user to manage the data in various ways, where Angular processes these requests for data and sends them to the DB to either change or receive data that would then be displayed in the framework through Express.
+
+### User Types
+There are three user types:
+1. **Administrative Users**:
+   - Change access privileges of other users.
+   - Manage how the database processes data requests and changes.
+   - Simplify becoming a main user.
+2. **Active Managing Users**:
+   - Log in and manage the database.
+   - Organize and search through the database efficiently.
+3. **New/Guest Users**:
+   - Access the login screen to log in or create a user to become a main user.
+
+### Requirements
+1. **Database Connection**:
+   - Needs a connection to the database.
+   - Various required screens should connect to the database to display and manage the inventory.
+2. **Screens**:
+   1. **Login Screen**:
+      - **Components**: Two buttons, two text boxes, and two input boxes.
+      - **Functionality**:
+         - Login button checks username and password against the database.
+         - Create user button shows inputs for creating a user and returns to the login screen after creation.
+   2. **Create User Screen**:
+      - **Components**: Inputs for name, email, phone number, address, date of birth, password, and username.
+      - **Functionality**:
+         - Create user button checks database for existing username and creates a new

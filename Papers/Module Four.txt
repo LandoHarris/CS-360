@@ -1,0 +1,29 @@
+The app that I chose to redesign is Spotify, more specifically the DJ feature page of Spotify. The reason for choosing this part was because although I use Spotify all the time and much of their interface is already optimized, this is one of the newer features they’ve added and is still in the beta phase. This could explain why the page lacks some of the minor details that the other parts of the Spotify app might have. This is why I chose the DJ portion as it seemed that it could use that little bit of refinement.
+
+### Elements of the Original
+- **Audio Visualizer**: Not Interactable, takes data from the song currently being played
+- **Duration Slider**: Interactable, takes data from song currently being played
+- **Rewind**: Interactable, takes data from the current playlist for order of songs played previously
+- **Pause/Play**: Interactable, takes data from current song
+- **Skip**: Interactable, takes data from playlist and queue
+- **Song Name**: Not interactable, takes data from current song
+- **Song Author**: Not interactable, takes data from current song
+
+### Redesign
+- **Audio Visualizer**: Not Interactable, takes data from the song currently being played
+- **Duration Slider**: Interactable, takes data from song currently being played
+- **Rewind**: Interactable, takes data from the current playlist for order of songs played previously
+- **Pause/Play**: Interactable, takes data from current song
+- **Skip**: Interactable, takes data from playlist and queue
+- **Song Name**: Not interactable, takes data from current song
+- **Song Author**: Not interactable, takes data from current song
+- **Song Cover**: Not Interactable, takes data from current song
+- **Settings**: Interactable, takes data from User Profile
+- **Coming Up**: Interactable, takes data from current playlist and queue
+
+### Changes Made
+The changes I made weren’t too drastic as I only changed the design of a few elements without changing the placement and use for the play, skip, rewind, and audio visualizer. The main changes were the addition of the settings bar and the coming up queue. I added the song cover as it was created to showcase the current song, so it made sense to make it visible like in the other parts of the Spotify app, making things more consistent throughout the app.
+
+I redesigned the pause, rewind, and skip parts to be simpler looking as there isn’t much happening on the page and the meaning of the elements is still clear. I changed the audio visualizer and moved the duration bar so that they are basically the same element and don’t take up more of the screen while still being easy to understand and uncluttered. The addition of the settings was so that the user would be able to swap between or add and remove certain elements that they might want to change or get rid of to make the user experience more tailored.
+
+It was difficult to think of an app to redesign because all of the ones that I actually use are already very refined and there isn’t much logically I could do to make them better in my mind. That's why I thought of something that's still in the beta phase because even they haven’t fully figured it out yet, so the changes could be more freely made while still improving something.
